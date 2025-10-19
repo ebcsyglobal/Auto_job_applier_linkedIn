@@ -24,7 +24,7 @@ Note: RECOMMENDED TO LEAVE IT AS `True`, if you set it `False`, be sure to CLOSE
 '''
 
 # Follow easy applied companies
-follow_companies = False            # True or False, Note: True or False are case-sensitive
+follow_companies = True            # True or False, Note: True or False are case-sensitive
 
 ## Upcoming features (In Development)
 # # Send connection requests to HR's 
@@ -34,7 +34,7 @@ follow_companies = False            # True or False, Note: True or False are cas
 # connect_request_message = ""       # Leave Empty to send connection request without personalized invitation (recommended to leave it empty, since you only get 10 per month without LinkedIn Premium*)
 
 # Do you want the program to run continuously until you stop it? (Beta)
-run_non_stop = False                # True or False, Note: True or False are case-sensitive
+run_non_stop = True                # True or False, Note: True or False are case-sensitive
 '''
 Note: Will be treated as False if `run_in_background = True`
 '''
@@ -66,7 +66,7 @@ logs_folder_path = "logs/"
 click_gap = 0                       # Enter max allowed secs to wait approximately. (Only Non Negative Integers Eg: 0,1,2,3,....)
 
 # If you want to see Chrome running then set run_in_background as False (May reduce performance). 
-run_in_background = False           # True or False, Note: True or False are case-sensitive ,   If True, this will make pause_at_failed_question, pause_before_submit and run_in_background as False
+run_in_background = True           # True or False, Note: True or False are case-sensitive ,   If True, this will make pause_at_failed_question, pause_before_submit and run_in_background as False
 
 # If you want to disable extensions then set disable_extensions as True (Better for performance)
 disable_extensions = False          # True or False, Note: True or False are case-sensitive
