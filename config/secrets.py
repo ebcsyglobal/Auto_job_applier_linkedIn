@@ -50,13 +50,13 @@ Note: Select your AI provider.
 
 
 # Your LLM url or other AI api url and port
-llm_api_url = "disabled-url"       # Examples: "https://api.openai.com/v1/", "http://127.0.0.1:1234/v1/", "http://localhost:1234/v1/", "https://api.deepseek.com", "https://api.deepseek.com/v1"
+llm_api_url = "https://disabled.local/api/v1/"       # Examples: "https://api.openai.com/v1/", "http://127.0.0.1:1234/v1/", "http://localhost:1234/v1/", "https://api.deepseek.com", "https://api.deepseek.com/v1"
 '''
 Note: Don't forget to add / at the end of your url. You may not need this if you are using Gemini.
 '''
 
 # Your LLM API key or other AI API key 
-llm_api_key = "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"              # Enter your API key in the quotes, make sure it's valid, if not will result in error.
+llm_api_key = "not-needed"
 '''
 Note: Leave it empty as "" or "not-needed" if not needed. Else will result in error!
 If you are using ollama, you MUST put "not-needed".
