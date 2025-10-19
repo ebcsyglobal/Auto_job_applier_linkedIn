@@ -28,10 +28,10 @@ years_of_experience = "5"          # A number in quotes Eg: "0","1","2","3","4",
 require_visa = "No"               # "Yes" or "No"
 
 # What is the link to your portfolio website, leave it empty as "", if you want to leave this question unanswered
-website = "https://github.com/GodsScion"                        # "www.example.bio" or "" and so on....
+website = "https://www.clippings.me/users/results-driven-copy"                        # "www.example.bio" or "" and so on....
 
 # Please provide the link to your LinkedIn profile.
-linkedIn = "https://www.linkedin.com/in/saivigneshgolla/"       # "https://www.linkedin.com/in/example" or "" and so on...
+linkedIn = "https://www.linkedin.com/in/eric-brister/"       # "https://www.linkedin.com/in/example" or "" and so on...
 
 # What is the status of your citizenship? # If left empty as "", tool will not answer the question. However, note that some companies make it compulsory to be answered
 # Valid options are: "U.S. Citizen/Permanent Resident", "Non-citizen allowed to work for any employer", "Non-citizen allowed to work for current employer", "Non-citizen seeking work authorization", "Canadian Citizen/Permanent Resident" or "Other"
@@ -42,7 +42,7 @@ us_citizenship = "U.S. Citizen/Permanent Resident"
 ## SOME ANNOYING QUESTIONS BY COMPANIES 🫠 ##
 
 # What to enter in your desired salary question (American and European), What is your expected CTC (South Asian and others)?, only enter in numbers as some companies only allow numbers,
-desired_salary = 1200000          # 80000, 90000, 100000 or 120000 and so on... Do NOT use quotes
+desired_salary = 70,000          # 80000, 90000, 100000 or 120000 and so on... Do NOT use quotes
 '''
 Note: If question has the word "lakhs" in it (Example: What is your expected CTC in lakhs), 
 then it will add '.' before last 5 digits and answer. Examples: 
@@ -54,7 +54,7 @@ And if asked in months, then it will divide by 12 and answer. Examples:
 '''
 
 # What is your current CTC? Some companies make it compulsory to be answered in numbers...
-current_ctc = 800000            # 800000, 900000, 1000000 or 1200000 and so on... Do NOT use quotes
+current_ctc = 55000            # 800000, 900000, 1000000 or 1200000 and so on... Do NOT use quotes
 '''
 Note: If question has the word "lakhs" in it (Example: What is your current CTC in lakhs), 
 then it will add '.' before last 5 digits and answer. Examples: 
@@ -69,7 +69,7 @@ then it will add '.' before last 5 digits and answer. Examples:
 # currency = "INR"                 # "USD", "INR", "EUR", etc.
 
 # What is your notice period in days?
-notice_period = 30                   # Any number >= 0 without quotes. Eg: 0, 7, 15, 30, 45, etc.
+notice_period = 14                  # Any number >= 0 without quotes. Eg: 0, 7, 15, 30, 45, etc.
 '''
 Note: If question has 'month' or 'week' in it (Example: What is your notice period in months), 
 then it will divide by 30 or 7 and answer respectively. Examples:
@@ -82,64 +82,47 @@ then it will divide by 30 or 7 and answer respectively. Examples:
 '''
 
 # Your LinkedIn headline in quotes Eg: "Software Engineer @ Google, Masters in Computer Science", "Recent Grad Student @ MIT, Computer Science"
-linkedin_headline = "Full Stack Developer with Masters in Computer Science and 4+ years of experience" # "Headline" or "" to leave this question unanswered
+linkedin_headline = "" # "Headline" or "" to leave this question unanswered
 
 # Your summary in quotes, use \n to add line breaks if using single quotes "Summary".You can skip \n if using triple quotes """Summary"""
 linkedin_summary = """
-I'm a Senior Software Engineer at Amazon with Masters in CS and 4+ years of experience in developing and maintaining Full Stack Web applications and cloud solutions. 
-Specialized in React, Node.js, and Python.
+Content Manager | On-Page SEO Specialist | Content Strategist | Growth Architect - Turning Search Intent into Sales Growth
 """
 
 '''
 Note: If left empty as "", the tool will not answer the question. However, note that some companies make it compulsory to be answered. Use \n to add line breaks.
 ''' 
-
-# Your cover letter in quotes, use \n to add line breaks if using single quotes "Cover Letter".You can skip \n if using triple quotes """Cover Letter""" (This question makes sense though)
 cover_letter = """
-Cover Letter
+Dear Hiring Manager,
+
+I’m an experienced Content Manager and On-Page SEO Specialist with a proven track record of building content ecosystems that rank, convert, and scale. Since 2016, I’ve helped businesses transform their online visibility into measurable revenue by combining strategic SEO frameworks with conversion-driven storytelling.
+
+I specialize in on-page optimization, content architecture, and topic cluster development that boost topical authority and capture high-intent search traffic. My background spans technical SEO, brand voice development, and analytics-based content performance tuning—ensuring every page serves both users and revenue goals.
+
+I’m looking for a role where I can bring this blend of creative strategy and technical precision to help your brand grow faster, smarter, and more profitably. I’d love the opportunity to contribute to your team and deliver results that speak for themselves.
+
+Best regards,
+Eric Brister
 """
-##> ------ Dheeraj Deshwal : dheeraj9811 Email:dheeraj20194@iiitd.ac.in/dheerajdeshwal9811@gmail.com - Feature ------
 
-# Your user_information_all letter in quotes, use \n to add line breaks if using single quotes "user_information_all".You can skip \n if using triple quotes """user_information_all""" (This question makes sense though)
-# We use this to pass to AI to generate answer from information , Assuing Information contians eg: resume  all the information like name, experience, skills, Country, any illness etc. 
-user_information_all ="""
-User Information
+user_information_all = """
+Name: Eric Brister
+Title: Content Manager | On-Page SEO Specialist | Content Strategist | Revenue Architect
+Experience: 8+ years in SEO and content marketing
+Skills: On-page SEO, Technical SEO, Content Strategy, Topic Clustering, Keyword Research, Copywriting, Conversion Optimization, Analytics, Brand Positioning
+Industries: Construction, Home Services, B2B SaaS, Travel, Creative Agencies
+Location: Austin, Texas (open to remote or hybrid)
+Languages: English (native)
+Health: No restrictions
+Career Objective: To build and scale content ecosystems that generate consistent search visibility and revenue growth.
+Portfolio: https://clippings.me/koudoku/users/results-driven-copy
 """
-##<
-'''
-Note: If left empty as "", the tool will not answer the question. However, note that some companies make it compulsory to be answered. Use \n to add line breaks.
-''' 
 
-# Name of your most recent employer
-recent_employer = "Not Applicable" # "", "Lala Company", "Google", "Snowflake", "Databricks"
-
-# Example question: "On a scale of 1-10 how much experience do you have building web or mobile applications? 1 being very little or only in school, 10 being that you have built and launched applications to real users"
-confidence_level = "8"             # Any number between "1" to "10" including 1 and 10, put it in quotes ""
-##
-
-
-
-# >>>>>>>>>>> RELATED SETTINGS <<<<<<<<<<<
-
-## Allow Manual Inputs
-# Should the tool pause before every submit application during easy apply to let you check the information?
-pause_before_submit = True         # True or False, Note: True or False are case-sensitive
-'''
-Note: Will be treated as False if `run_in_background = True`
-'''
-
-# Should the tool pause if it needs help in answering questions during easy apply?
-# Note: If set as False will answer randomly...
-pause_at_failed_question = True    # True or False, Note: True or False are case-sensitive
-'''
-Note: Will be treated as False if `run_in_background = True`
-'''
-##
-
-# Do you want to overwrite previous answers?
-overwrite_previous_answers = False # True or False, Note: True or False are case-sensitive
-
-
+recent_employer = "Zavza Seal LLC"
+confidence_level = "9"
+pause_before_submit = True
+pause_at_failed_question = True
+overwrite_previous_answers = False
 
 
 
